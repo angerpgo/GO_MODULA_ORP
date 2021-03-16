@@ -3,7 +3,7 @@
 	<Transactions>
     <Transaction>2017/05/13 08:07:54.000.954,=C:\Users\GODEV\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2017/05/13 08:08:20.000.299,=C:\GestionaleOpen\go_utenti\GO_MODULA_ORP\src\GGMENU.pas</Transaction>
-    <Transaction>2017/05/13 08:09:30.000.568,C:\GestionaleOpen\go_utenti\GO_MODULA_ORP\src\GO_MODULA_1002.dproj=C:\Users\GODEV\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2017/05/13 08:09:30.000.568,C:\Users\GODEV\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\GestionaleOpen\go_utenti\GO_MODULA_ORP\src\GO_MODULA_1002.dproj</Transaction>
     <Transaction>2017/05/13 08:13:42.000.399,=C:\GestionaleOpen\go_utenti\GO_MODULA_ORP\src\DMCLOUD.pas</Transaction>
     <Transaction>2017/05/13 08:13:42.000.474,=C:\GestionaleOpen\go_utenti\GO_MODULA_ORP\src\FRMDITTA.pas</Transaction>
     <Transaction>2017/05/13 08:14:12.000.827,=C:\GestionaleOpen\go_1002\src\DMARC.pas</Transaction>
@@ -11,7 +11,7 @@
     <Transaction>2017/05/13 08:14:42.000.416,=C:\GestionaleOpen\go_1002\src\GGBASE.pas</Transaction>
     <Transaction>2017/05/13 08:14:52.000.533,=C:\GestionaleOpen\go_1002\src\GGFORMBASE.pas</Transaction>
     <Transaction>2017/05/13 08:15:20.000.579,=C:\GestionaleOpen\go_1002\src\GGSTAMPA.pas</Transaction>
-    <Transaction>2017/05/13 08:16:11.000.533,C:\GestionaleOpen\go_utenti\GO_MODULA_ORP\src\GO_MODULA.dproj=C:\GestionaleOpen\go_utenti\GO_MODULA_ORP\src\GO_MODULA_1002.dproj</Transaction>
+    <Transaction>2017/05/13 08:16:11.000.533,C:\GestionaleOpen\go_utenti\GO_MODULA_ORP\src\GO_MODULA_1002.dproj=C:\GestionaleOpen\go_utenti\GO_MODULA_ORP\src\GO_MODULA.dproj</Transaction>
     <Transaction>2019/10/18 14:13:56.000.242,=C:\GestionaleOpen\go_1007\src_100701\ZZVERSIONE_GO_EXE.rc</Transaction>
     <Transaction>2019/10/18 15:40:52.000.478,C:\GestionaleOpen\go_1007\src_100701\ZZVERSIONE_GO_EXE.rc=</Transaction>
     <Transaction>2019/10/18 15:41:10.000.293,=C:\GestionaleOpen\go_1007\src_100701\ZZVERSIONE_GO_EXE.rc</Transaction>
@@ -20,7 +20,7 @@
     <Transaction>2020/04/06 15:47:14.000.160,=C:\GestionaleOpen\go_1008\src\ZZVERSIONE_GO_EXE.rc</Transaction>
     <Transaction>2021/01/07 12:19:24.000.173,C:\GestionaleOpen\go_1008\src\ZZVERSIONE_GO_EXE.rc=</Transaction>
     <Transaction>2021/01/07 12:19:30.000.783,=C:\GestionaleOpen\go_1010\src_1002\ZZVERSIONE_GO_EXE.rc</Transaction>
-    <Transaction>2021/03/16 08:57:02.889,=C:\GestionaleOpen\go_1010\src_101002\ZZVERSIONE_GO_EXE.rc</Transaction>
-    <Transaction>2021/03/16 08:57:37.298,=C:\GestionaleOpen\go_utenti\GO_MODULA_ORP\src\GGMENU.pas</Transaction>
+    <Transaction>2021/03/16 08:57:02.000.889,=C:\GestionaleOpen\go_1010\src_101002\ZZVERSIONE_GO_EXE.rc</Transaction>
+    <Transaction>2021/03/16 08:57:37.000.298,=C:\GestionaleOpen\go_utenti\GO_MODULA_ORP\src\GGMENU.pas</Transaction>
   </Transactions>
 </BorlandProject>

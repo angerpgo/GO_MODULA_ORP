@@ -16,7 +16,7 @@ uses
   DMARC in '..\..\..\go_1010\src_101002\DMARC.pas' {ARC: TDataModule},
   GGLOGIN in '..\..\..\go_1010\src_101002\GGLOGIN.pas' {LOGIN},
   GGBASE in '..\..\..\go_1010\src_101002\GGBASE.pas' {BASE},
-  GGFORMBASE in '..\..\..\go_1010\src_1002\GGFORMBASE.pas' {FORMBASE},
+  GGFORMBASE in '..\..\..\go_1010\src_101002\GGFORMBASE.pas' {FORMBASE},
   GGSTAMPA in '..\..\..\go_1010\src_101002\GGSTAMPA.pas' {STAMPA},
   DMCLOUD in 'DMCLOUD.pas' {CLOUD: TDataModule},
   FRMDITTA in 'FRMDITTA.pas' {DITTA: TFrame},
