@@ -602,6 +602,8 @@ begin
 
   mag.close;
 
+
+
   xlswrite.filename := cartella_report + 'esporta\controllo_giacenze_modula_go.xls';
 
   xlsWrite.Sheets[0].AsString[0, 0] := 'Codice articolo';
@@ -615,11 +617,11 @@ begin
   query_ds.dataset := query;
   query.close;
   query.sql.clear;
-  query.sql.add('select g.*, art.descrizione1 art_descrizione1');
+  query.sql.add('select g.*, art.codice art_codice_articolo,art.descrizione1 art_descrizione1');
   query.sql.add('from modula_giacenze g');
-  query.sql.add('inner join art on art.codice = g.art_codice');
+  query.sql.add('inner join art on art.codice_alternativo = g.art_codice');
   query.sql.add('where g.articolo_go=''si'' ');
-  query.sql.add('order by g.art_codice');
+  query.sql.add('order by art.codice');
   query.open;
 
   while not query.eof do
@@ -627,7 +629,7 @@ begin
     application.ProcessMessages;
 
     riga := riga + 1;
-    xlsWrite.Sheets[0].AsString[0, riga] := query.fieldbyname('art_codice').asstring;
+    xlsWrite.Sheets[0].AsString[0, riga] := query.fieldbyname('art_codice_articolo').asstring;
     xlsWrite.Sheets[0].AsString[1, riga] := query.fieldbyname('art_descrizione1').asstring;
     xlsWrite.Sheets[0].Asinteger[2, riga] := query.fieldbyname('giacenza_modula').asinteger;
     xlsWrite.Sheets[0].Asinteger[3, riga] := query.fieldbyname('giacenza_go').asinteger;
