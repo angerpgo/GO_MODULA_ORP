@@ -23,11 +23,10 @@ uses
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TCLOUD, CLOUD);    .3
-
+  Application.CreateForm(TCLOUD, CLOUD);
 
   Application.CreateForm(TARC, ARC);
   Application.CreateForm(TLOGIN, LOGIN);
   Application.Run;
 
-end.\
+end.

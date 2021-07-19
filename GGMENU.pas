@@ -647,7 +647,7 @@ begin
   begin
     if query.fieldbyname('delta').asinteger <> 0 then
     begin
-      stringa := query.fieldbyname('art_codice').asstring + ';' + query.fieldbyname('delta').asstring;
+      stringa := query.fieldbyname('art_codice_articolo').asstring + ';' + query.fieldbyname('delta').asstring;
       writeln(filetesto, stringa);
     end;
     query.next;
